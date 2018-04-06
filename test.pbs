@@ -6,5 +6,5 @@
 cd $PBS_O_WORKDIR
 
 module load lsdyna/R9.0.1
-lsdyna_s i=03-21-18.k memory=500m memory2=500m
+lsdyna_s i=03-25-18.k memory=500m memory2=500m
 
