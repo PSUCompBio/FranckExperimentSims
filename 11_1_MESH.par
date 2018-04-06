@@ -1,0 +1,81 @@
+# solver params file written on Fri Dec 01 02:42:38 PM EST 2017 by pyd5089@comp-ic-0021.aci.ics.psu.edu
+
+begin card10
+    f2 0.1
+    f4 1.5
+    f5 0.06
+    i1 0
+    i3 0
+end card10
+
+begin card2
+    f9 0.0
+end card2
+
+begin card3
+    i6 1000
+    i7 0
+    i8 0
+end card3
+
+begin card4
+    s6 E10.0
+end card4
+
+begin card6
+    f1 0.0
+    f2 0.0
+    f3 0.0
+    f6 0.0
+    i4 0
+    i5 0
+    i9 0
+end card6
+
+begin card7
+    i12 0
+    i13 0
+    i6 0
+    i9 0
+end card7
+
+begin card8
+    f10 0.995
+    f11 0.0
+    f2 0.0
+    f9 0.001
+    i12 0
+    i8 250
+end card8
+
+begin def_beam
+    Irr 0.0
+    Iss 0.0
+    Itt 0.0
+    cs_area 0.0
+    cs_type 0
+    dim_s 0
+    dim_t 0
+    formul 1
+    kappa 1.0
+    quad_rule 2
+    ref_s 0
+    ref_t 0
+    shear_area 0.0
+end def_beam
+
+begin def_shell
+    formul 2
+    int_point 2
+    int_rule 0
+    kappa 1.0
+    print_opt 3
+    ref_loc 0
+    thk 0.0
+end def_shell
+
+begin description
+    input_large 0
+    input_style 88
+    title ICEM-CFD
+end description

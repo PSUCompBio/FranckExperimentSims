@@ -1,0 +1,16 @@
+# Written by ICEM CFD 18.1, user pyd5089, Fri Dec 01 02:42:37 PM EST 2017
+
+begin family FAM10-18
+    begin solver "LS-DYNA3D"
+    end solver "LS-DYNA3D"
+end family FAM10-18
+
+begin family CREATED_MATERIAL_2
+    begin solver "LS-DYNA3D"
+    end solver "LS-DYNA3D"
+end family CREATED_MATERIAL_2
+
+begin family CREATED_MATERIAL_3
+    begin solver "LS-DYNA3D"
+    end solver "LS-DYNA3D"
+end family CREATED_MATERIAL_3
