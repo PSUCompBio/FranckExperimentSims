@@ -1,0 +1,10 @@
+#PBS -l walltime=48:00:00
+#PBS -l nodes=1
+#PBS -l pmem=5gb
+#PBS -N ACTUAL
+
+cd $PBS_O_WORKDIR
+
+module load lsdyna/R9.0.1
+lsdyna_s i=03-21-18.k memory=500m memory2=500m
+
